@@ -11,5 +11,6 @@ ecrire les changements : w
 pvdisplay
 pvs
 
-vgcreate debian-vg /dev/sdb1
+vgcreate debian-vg /dev/sdb1    
 vgdisplay
+vgs
