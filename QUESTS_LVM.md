@@ -8,11 +8,7 @@ créer une partition primaire : p
 
 ecrire les changements : w
 
-fdisk /dev/sdc 
-nouvelle partition : n
-créer une partition primaire : p 
-
-ecrire les changements : w
-
 pvdisplay
 pvs
+
+vgcreate debian-vg /dev/sdb1
