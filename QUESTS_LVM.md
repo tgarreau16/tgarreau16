@@ -12,5 +12,8 @@ pvdisplay
 pvs
 
 vgcreate debian-vg /dev/sdb1    
-vgdisplay
+vgdisplay   
 vgs
+`` debian-vg FREE 1,99g`` 
+pvs 
+`` /dev/sdb1 VG debian-vg``
